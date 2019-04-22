@@ -141,7 +141,7 @@ void
 clone_libft(void)
 {
 	int err;
-	
+
 	err = system("git clone https://github.com/arwn/libft");
 	if (err != 0) {
 		perror("could not libft");
